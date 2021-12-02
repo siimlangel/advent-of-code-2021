@@ -1,1 +1,1 @@
-make main && ./main test.txt
+make main && ./main $1
