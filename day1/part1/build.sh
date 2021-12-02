@@ -1,1 +1,1 @@
-make main && ./main
+make main && ./main $1
