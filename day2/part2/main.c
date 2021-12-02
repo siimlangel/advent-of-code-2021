@@ -20,7 +20,7 @@ void get_movement(char **direction, int *amount, char *line)
 int main(int argc, char **argv)
 {
     if(argc != 2) { 
-        printf("Usage: ./main [input_file_name.ext]");
+        printf("Usage: ./main [input_file_name.ext]\n");
         exit(1);
     }
     
