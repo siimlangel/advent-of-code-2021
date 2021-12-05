@@ -156,10 +156,10 @@ int main(int argc, char **argv)
 
 
     for(i = 0; i < num_bingo_boards; i++) {
-        int pulls_needed_to_win = 9999999;
-        int row_or_col = -1;
-        int right_col_or_row_index = -1;
-        int right_board_index = -1;
+        pulls_needed_to_win = 9999999;
+        row_or_col = -1;
+        right_col_or_row_index = -1;
+        right_board_index = -1;
         // check every row
         for (int j = 0; j < ROW_SIZE; j++) {
             // Build row
